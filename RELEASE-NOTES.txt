@@ -1,0 +1,192 @@
+14.0
+-----
+ 
+13.9
+-----
+* Block Editor: New block "Gallery". You can now create image galleries using WordPress Media library.
+* Block Editor: Add support for the Preformatted block.
+* Block Editor: Add support for changing Settings in the List Block.
+* Block Editor: Add support for Video block settings.
+ 
+13.8
+-----
+* Modified Blog Post search to search for posts under all categories.
+* Block editor: Add support for Preformatted block.
+* Block editor: New Spacer block to create white space between two blocks.
+
+13.7
+-----
+* Block editor: Include block title in Unsupported block's UI
+* Block editor: Show new-block-indicator when no blocks at all and when at the last block
+* Block editor: Use existing links in the clipboard to prefill url field when inserting new link
+* Block editor: Media & Text block alignment options
+* Block editor: Images clickable for fullscreen preview
+* Fixed time displayed on Post Conflict Detected and Unpublished Revision dialogs
+* Block editor: Fix issue when removing image/page break block crashes the app
+* Fixed a crash on Samsung devices running Android 5 (Lollipop)
+ 
+* Removed support for Giphy
+
+13.6
+-----
+ * Change navigation bar color to white on Android 8.1+
+* Pages ordering is case insensitive now
+* Block Editor: Add support for pexels images
+* Block Editor: Add left, center, and right image alignment controls
+
+13.5
+-----
+ * Block Editor: Fix issue when multiple media selection adds only one image or video block.
+ * Block Editor: Add Link Target (Open in new tab) to Image Block.
+ * Block Editor: New block "Media & Text".
+ * Block Editor: Fix issue where the block inserter layout wasn't correct after device rotation.
+ * Fix crash when fast-scrolling on Blog Posts screen
+
+13.4
+-----
+* Add Remote Preview support for posts and pages.
+* Post List: Trashed post must now be restored before edit or preview.
+* Post List: Unhandled conflict with auto saves are now detected and visible. On post opening, the app will let you choose which version you prefer.
+* Fixed: Clicking on "Publish" on a private post sometimes published the post as public
+* Post List: Unsaved changes are automatically backed up on all devices. On post opening, the app will let you choose which version you prefer.
+* Clicking on "Publish" on a private post sometimes published the post as public
+* Fixed a bunch of upload related issues
+* Block editor: Fix a link editing issue, where trying to add a empty link at the start of another link would remove the existing link.
+
+13.3
+-----
+* Added ability to change the username via Account Settings
+* Add Jetpack performance settings
+* Sort more than 100 published pages chronologically like Calypso
+* Significant performance improvements to Stats
+* Block Editor: Add rich text styling to video captions
+* Block Editor: Prevent keyboard dismissal when switching between caption and text block
+* Block Editor: Blocks that would be replaced are now hidden when add block bottom sheet displays
+* Block Editor: Tapping on empty editor area now always inserts new block at end of post
+* Block Editor: Automatically saves post locally after 2 seconds of inactivity
+
+13.2
+-----
+* Fix issue where establishing LinkedIn connection would always fail
+* Display author of each post on Blog Posts screen
+* Moved Notifications settings to Notifications List.
+* Redesigned My Site screen to make most commonly used actions easily accessible.
+* File downloads in Stats for WP.com sites
+
+13.1
+-----
+* Added ability to switch between Desktop and Mobile versions of the content for Site and Page preview.
+* Improvement to the functionality and design of Web Preview.
+* Fixed an issue with social media service connections
+
+13.0
+-----
+* Block editor: Auto-enabled upon first open of a block post, unless opted out in v12.9.
+* Block editor: You can now enable and disable the block editor on a per-site basis.
+* Improve accessibility in the Stats
+* Block editor: Adding a block from the post title now shows the add block here indicator.
+* Block editor: Deselect post title any time a block is added
+* Block editor: Fix loss of center alignment in image captions
+
+12.9
+-----
+* Add Publish screen to Edit post settings - with notification for scheduled posts and option to add event to calendar
+* Block editor: Video block is now available in the Inserter
+* Block editor: Tapping on an empty editor area will create a new paragraph block
+* Block editor: Fix content loss issue when loading unsupported blocks containing inner blocks.
+* Block editor: Adding a block from the Post Title now inserts the block at the top of the Post.
+* Setting featured image on a post doesn't require network connection
+* Full screen comments view
+* Added Domain Registration functionality for customers with unclaimed domain credit
+
+12.8
+-----
+* Add percentage bar to following Stats cards - Posts and Pages, Authors, Tags and Categories
+* Remove "Discard Local Changes" feature from the editor
+* Block Editor: Fix pasting simple text on Post Title
+* Block Editor: Remove editable empty line after list on the List block
+* Block Editor: Performance improvements on rich text editing
+* Add All-time, Today, Weekly and Minified widgets
+
+12.7.1
+------
+* Fix issue where local draft with "Publish" status got automatically published
+
+12.7
+-----
+* Added Post search
+* Show upload in progress notification when retrying
+* Fix issue where two identical drafts were created
+* Block Editor: Fixed keyboard flickering issue after pressing Enter repeatedly on the Post Title.
+* Block Editor: New blocks are available: video/quote/more
+* Block Editor: performance improvements
+* Fixed issue where text appeared behind list of themes on the theme screen
+* Domain Registration functionality for Business plan customers on a site without a custom domain during plugin installation
+* Editor: Set "Publish" as the default button in the action bar for drafts.
+* Editor: Add a new confirmation dialog when Updating published posts.
+
+12.6
+-----
+* Add Insights management introductory card
+* Local draft pages will be automatically uploaded to the server as soon as an internet connection is available.
+* Block Editor: A new block is available: video block.
+* Block Editor: Added UI to display a warning when a block has invalid content.
+* Block Editor: Fixed issue with link settings where “Open in New Tab” was always OFF on open.
+
+12.5
+-----
+* Local Drafts will be automatically uploaded to the server as soon as internet connection is available.
+* Make current day difference grey in Stats Overview.
+* Add link to the Post from the Post stats.
+
+12.4
+-----
+* Reduce number of network calls in Stats and improve performance
+* Added support for displaying posts in tabs based on their status
+* Added ability to filter posts by their author
+* Added ability to toggle to compact view type for blog posts list
+* Fixed several bugs on the blog posts screen
+* Fixed bug that prevented audio playing in the reader
+* New Insights Management for selecting the most relevant stats
+* App download size is now much smaller.
+
+12.3
+-----
+* Updated primary button color to pink
+* Redirect to username/password login when WordPress.com reports email login not allowed
+* Updated notifications list to Material guidelines
+* Updated snackbar design to Material guidelines
+* New Follower totals insights in the Stats
+* Fixed crash when viewing Notifications tab
+* Add "This Year" card to Stats Insights screen
+* The Site → Blog Posts → View WebView will no longer show any Calypso UI
+* Fixed an issue with Twitter publicize connections
+* Fixed an issue where the site icon wasn't updating correctly after switching to another site
+* Fixes an issue which can result in missing posts in the Reader
+* Fixed crash when editing a post with a previously cancelled image upload
+
+12.2
+-----
+* Fixed padding of some icons on devices running Android Lollipop
+* Added an action to share sites in the Reader
+* Updated color scheme to Classic Bright
+* Adds support for .blog subdomains for the new site creation flow
+
+12.1
+-----
+* Design improvements for the new site creation flow
+* Refreshed post stats detail screen - opens from the Blog posts/Stats and from Stats/Posts and Pages
+* Added swiping between tabs in Notifications
+* Refreshed View all Stats screens, when digging into stats data
+* Visual update to Today's stats, All-time stats and Most popular stats blocks
+* Now sharing pictures to WordPress opens the block editor
+* Fixed crash when inserting text right before an Image
+* Now sharing pictures to WordPress opens the block editor
+
+12.0
+-----
+* Faster opening of large posts
+* Updated Notifications with tabs
+* Add Posting activity block to the Stats/Insights
+* Fixed error notifications for failed uploads
+
